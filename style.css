@@ -1,0 +1,105 @@
+html, body{
+    margin: 0;
+    padding: 0
+}
+
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: 'PT Serif';
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    z-index: 5;
+    display: block;
+}
+
+.nav-left {
+    float: left;
+}
+
+#rectangle {
+    height: 6px;
+    background: #C9A96E;
+    position: relative;
+    top: -10px;
+    opacity: 0.33;
+
+    border: 1px solid #979797;
+}
+
+.nav-right {
+    display: flex;
+    float: right;
+    padding-top: 6px;
+}
+
+.nav-menu-item {
+    font-family: 'PT Serif', serif;
+    font-weight: regular;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #171717;
+
+    transition: color 0.3s linear;
+}
+
+.nav-menu-item:hover {
+    color: #C9A96E;
+}
+
+.main-banner {
+    position: relative;
+}
+
+.banner-image {
+    width: 100%;
+    position: absolute;
+}
+
+.banner-text .header {
+    position: absolute;
+    top: 320px;
+    left: 170px;
+
+    font-family: 'PT Serif';
+    font-weight: regular;
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner-text .text {
+    position: absolute;
+    top: 340px;
+    left: 170px;
+
+    font-family: 'PT Serif';
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+.banner-text-footer {
+    position: absolute;
+    top: 450px;
+    left: 170px;
+}
+
+.banner-footer-item {
+    margin-right: 20px;
+    font-family: 'PT Serif';
+    font-weight: regular;
+    font-size: 14px;
+    color: #fff;
+}
+
+.by-span {
+    color: #7a7a78;
+}
