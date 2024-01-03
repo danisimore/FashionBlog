@@ -122,7 +122,13 @@ html, body{
     width: 100%;
     text-align: center;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+
+    transition: box-shadow 0.2s linear;
 }
+
+.post-card:hover {
+    box-shadow: 4px 8px 16px #8c8c89;
+  }
 
 .card-footer-item {
     font-family: "PT Serif";
