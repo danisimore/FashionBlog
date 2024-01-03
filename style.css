@@ -103,3 +103,44 @@ html, body{
 .by-span {
     color: #7a7a78;
 }
+
+.author-blog-content {
+    padding-top: 580px;
+}
+
+.author-posts {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 30px;
+    padding-left: 170px;
+}
+
+.post-card {
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-footer-item {
+    font-family: "PT Serif";
+    font-weight: regular;
+    color: #575656;
+    margin-bottom: 10px;
+}
+
+.card-content-header {
+    margin-top: 5px;
+    margin-bottom: -12px;
+    font-family: "PT Serif";
+    font-weight: regular;
+    color: #C9A96E;
+}
+
+.card-content-text {
+    font-family: "PT Serif";
+    font-weight: regular;
+    font-size: 20px;
+}
